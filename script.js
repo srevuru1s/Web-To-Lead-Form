@@ -10,7 +10,7 @@ function beforesubmit(event){
         let formatedDate = new Date(inputdate.value).toLocaleDateString('en-US');
         outputdate.value = formatedDate;
     } else {
-        alert(`Please check the re-acptha box to submit the lead`);
+        alert('Please check the re-acptha box to submit the lead');
         event.preventDefault();
     }
 
